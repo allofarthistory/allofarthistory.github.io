@@ -1,0 +1,22 @@
+body {
+    -webkit-animation: colorchange 60s infinite;
+    animation: colorchange 60s infinite;
+div{
+  color:#39009E;
+  font-size:30px;
+}
+marquee {
+font-size:40px;
+}
+
+.navitem {
+  list-style-type:none;
+  display:inline;
+  margin-right:.3em;
+  padding: 2px 5px;
+}
+
+#navemenu {
+  text-align:center;
+  color:white;
+}

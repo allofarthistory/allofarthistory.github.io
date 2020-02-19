@@ -1,0 +1,114 @@
+<head>
+<link type="text/css" rel="stylesheet" href="main.css"/>
+    <title> All of Art History Crammed into a Website </title>
+    <script>
+      function banner(){
+        var text = confirm("we're not ur enemies b a nn n  e r");
+        return text;
+      }
+      
+      function answer (){
+      var radio = document.getElementsByName("trivia");
+      var selection = false;
+      var message = "";
+      for( var i = 0; i < radio.length; i++) {
+      if(radio[i].value == "yes" && radio[i].checked == true) {
+      selection = true;
+        } //end if statement
+        } //end for loop
+        if(selection == true) {
+          message = message + "<b><p style='color:#39CFDD' font:'14' >Correct!</p></b>";
+        } else {
+          message = message + "<b><p style='color:#FA8DDA'>Oops! Try again!</p></b>";
+        }
+          document.getElementById("response").innerHTML = message;
+      }
+    </script>
+</head>
+<body id="background">
+  <a onclick="return banner()" href="https://smithsonianassociates.org/ticketing/certificate/world-art-history">
+  <header id="banner">
+    <center>
+    certificate program in world art history
+    </center>
+    </header>
+    </a>
+     <nav>
+    <ul id="navemenu">
+      <li class="navitem"> <a href="prehistoric.html">40,000 B.C. - 1850 A.D.</a> </li>
+      <li class="navitem"> <a href="realism.html">1900 - 1950</a></li>
+      <li class="navitem"> <a href= "modern.html">1960s - Present</a> </li>
+    </ul>
+        <style>.navitem {
+  list-style-type:none;
+  display:inline;
+  margin-right:.3em;
+  padding: 2px 5px;
+}
+</style>
+<style>
+#navemenu {
+  text-align:center;
+  background-color:#E6D1DD;
+  color:white;
+}</style>
+  </nav>
+   <img width="15%" <img align="center" src=https://i.pinimg.com/originals/ee/60/d1/ee60d19b647238383166d6c1bf8f283d.png>
+   <center>
+     <p>hello this is a little website about art history :) above there are dates of different artistic periods and movements</p>
+   </center>
+   <img width="15%" <img align="right" src=https://www.stickpng.com/assets/images/585693a24f6ae202fedf2725.png>
+  </header>
+    <style>
+      div {
+        background-color:#FDE1F1;
+      }
+    </style>
+    <center>
+      <h4>
+    <p style = "font-family:monaco,courier new, courier;font-size:30px;">
+          <div>All  of  Art  History  Crammed  Into  One  Website</div>
+      </p>
+    </h4>
+    </center>
+  <img width="30%" <img align="right"src=https://66.media.tumblr.com/1256766760f0f01654d25ae7e1cb4f56/tumblr_nnxxdtBrfs1qbsx6do1_400.jpg>
+   <audio width="400" height="220" <align="center" controls autoplay loop>
+      <source src="808-death-club-lo-fi-hip-hop-beat-to-study.mp3" type=audio/mp3>
+    </audio>
+  <h3>
+   <font color="#DDCECE">
+          which art movement took place in the 14th century?
+    </font>
+  </h3>
+  <form>
+    <font color="DDECE">
+      <div id="response"></div>
+    <input type="radio" name="trivia" value="yes"> The Renaissance <br>
+    <input type="radio" name="trivia" value="no"> Impressionism <br>
+    <input type="radio" name="trivia" value="no"> Surrealism <br>
+    <input onclick="answer()" type="button" value="submit">
+    </font>
+  </form>
+  <style>
+  html{
+  background-image:url("https://data.whicdn.com/images/334007071/original.jpg");
+}
+` </style>
+    <span style="background-color: #FFDBFF">
+      <h2>
+        <font color="#DDCECE">
+          a brief history of art
+        </font>
+      </h2>
+    </span>
+    <iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=WQ5eA_v5nDA?rel=0"
+frameborder="0" allowfullscreen>
+</iframe>
+ 
+ 
+ <footer>
+<img width="30%" <img float="center"src=https://www.stickpng.com/assets/images/5a02dab618e87004f1ca446a.png>
+</footer>
+</body>
+</html>
